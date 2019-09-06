@@ -1,0 +1,12 @@
+[package]
+name = "publish-sonatype"
+version = "0.1.0"
+authors = ["Luke Tebbs <luke.tebbs@digital.hmrc.gov.uk>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+threadpool = "1.7.1"
+regex = "1"
+reqwest = "0.9.20"
